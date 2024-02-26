@@ -30,5 +30,27 @@ x = acos(dot(cr,crp)/(norm(cr)*norm(crp))); %radians
 
 theta = (pi()-x)/2; 
 
+%TRef = 0;
+
+
+
+%muRef = ;
+
+%g = ;
+
+%omega = g/muRef*TRef;
+
+%omega2 = 2*omega-1;
+
+
+
+%CrRef = sqrt(4*m/kb*TRef)/(gamma^(1/omega2));
+
+%dCr = dr*(CrRef/CrNorm)^(omega2/2);
+
+x = acos(dot(cr, crp)/())
+
+theta = (pi() - x)/2;
+
 b = d*sin(theta); %Angstrom
 
