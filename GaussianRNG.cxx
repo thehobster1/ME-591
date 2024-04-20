@@ -1,0 +1,12 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Generator of random variables with Gaussian distribution
+//--------------------------------------------------------------------------------------------------
+// ME 408/508 Non-equilibrium gas dynamics, Spring 2024
+// Alexey N. Volkov, Univesity of Alabama, avolkov1@ua.edu
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        double frand_Gaussian ( double E, double S ) ///////////////////////////////////////////////
+        // Here E is the mean, S is the standard deviation
+        { //////////////////////////////////////////////////////////////////////////////////////////
+	        return E + S * sqrt ( - 2.0 * log ( brng () ) ) * cos ( 2.0 * M_PI * brng () );
+        } 
